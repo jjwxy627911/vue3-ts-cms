@@ -1,10 +1,10 @@
 {
   "name": "vue3-ts-cms",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "config": {
     "commitizen": {
-        "path": "node_modules/cz-conventional-changelog"
+      "path": "node_modules/cz-conventional-changelog"
     }
   },
   "scripts": {
