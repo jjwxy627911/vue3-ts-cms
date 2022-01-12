@@ -4,7 +4,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### 0.1.1 (2022-01-11)
 
-
 ### Features
 
-* **login:** add new login module c1c4199
+- **login:** add new login module c1c4199
