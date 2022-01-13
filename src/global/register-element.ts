@@ -21,6 +21,7 @@ const components = [
 
 export default function (app: App): void {
   for (const cpn of components) {
+    console.log(cpn)
     app.component(cpn.name, cpn)
   }
 }

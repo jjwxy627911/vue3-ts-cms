@@ -1,6 +1,6 @@
-const AutoImport = require('unplugin-auto-import/webpack')
-const Components = require('unplugin-vue-components/webpack')
-const { ElementPlusResolver } = require('unplugin-vue-components/resolvers')
+// const AutoImport = require('unplugin-auto-import/webpack')
+// const Components = require('unplugin-vue-components/webpack')
+// const { ElementPlusResolver } = require('unplugin-vue-components/resolvers')
 
 module.exports = {
   outputDir: './dist', // 打包导出地址
@@ -9,14 +9,14 @@ module.exports = {
       alias: {
         views: '@/views'
       }
-    },
-    plugins: [
-      AutoImport({
-        resolvers: [ElementPlusResolver()]
-      }),
-      Components({
-        resolvers: [ElementPlusResolver()]
-      })
-    ]
+    }
+    // plugins: [
+    //   AutoImport({
+    //     resolvers: [ElementPlusResolver()]
+    //   }),
+    //   Components({
+    //     resolvers: [ElementPlusResolver()]
+    //   })
+    // ]
   }
 }

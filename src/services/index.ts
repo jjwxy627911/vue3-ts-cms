@@ -1,7 +1,7 @@
 import { MyRequest } from './request'
 import { BASE_URL, TIME_OUT } from './request/config'
 
-const MyReq = new MyRequest({
+const myReq = new MyRequest({
   baseURL: BASE_URL,
   timeout: TIME_OUT,
   interceptors: {
@@ -26,4 +26,4 @@ const MyReq = new MyRequest({
 })
 // const MyReq2 = new MyRequest({})
 
-export { MyReq }
+export { myReq }
