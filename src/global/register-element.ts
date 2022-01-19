@@ -6,8 +6,18 @@ import {
   ElAside,
   ElAutocomplete,
   ElBacktop,
-  ElBadge
+  ElBadge,
+  ElTabs,
+  ElTabPane,
+  ElIcon,
+  ElInput,
+  ElForm,
+  ElFormItem,
+  ElCheckbox,
+  ElLink
 } from 'element-plus/lib/components'
+
+import { Cellphone, User } from '@element-plus/icons-vue'
 
 const components = [
   ElButton,
@@ -16,7 +26,17 @@ const components = [
   ElAside,
   ElAutocomplete,
   ElBacktop,
-  ElBadge
+  ElBadge,
+  ElTabs,
+  ElTabPane,
+  ElIcon,
+  Cellphone,
+  User,
+  ElInput,
+  ElForm,
+  ElFormItem,
+  ElCheckbox,
+  ElLink
 ]
 
 export default function (app: App): void {
